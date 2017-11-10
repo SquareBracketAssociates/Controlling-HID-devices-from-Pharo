@@ -1,0 +1,41 @@
+!!! Compiling libusb
+TODO
+
+!!! Get informations about the USB devices connected
+On Linux, the command ==lsusb== allows to gather informations about
+USB devices connected to your computer. In the context of this book, the two
+main informations required from this command output are the Product ID (PID) and
+the Vendor ID (VID). Both are returned as hexadecimal numbers and allows to
+uniquely identify a device connected to a computer.
+[[[
+$ lsusb
+Bus 004 Device 003: ID 045e:07a5 Microsoft Corp. Wireless Receiver 1461C
+Bus 004 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 002 Device 002: ID 046d:c52f Logitech, Inc. Unifying Receiver
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 004: ID 058f:6366 Alcor Micro Corp. Multi Flash Reader
+Bus 001 Device 003: ID 05c8:030d Cheng Uei Precision Industry Co., Ltd (Foxlink)
+Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+                       ^    ^
+                       vid  pid
+]]]
+
+!!! Getting rights on the device
+By default, you should not have the rights to play with usb devices on your
+operating system. A simple way to get them is to use chmod as root and to change
+the rights on the file representing the usb device:
+
+[[[
+$ sudo chmod 777 /dev/bus/usb/002/002
+]]]
+
+The two last path fragments are the bus number and the device number which you
+can find in the output of lsusb in the previous section. One may want to
+configure the rights correctly using "udev" rules but it is out of scope of
+tutorial. Nevertheless, this simple solution should let you run the code
+presented in this book.
+
+@@note The bus number and the device number may change each time you unplug, re-plug the device. The vid/pid always stay the same.
