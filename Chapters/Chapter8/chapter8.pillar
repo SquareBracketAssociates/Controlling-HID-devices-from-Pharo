@@ -1,3 +1,4 @@
+TODO
 
 [[[label=PS3 controller's HID report|language=Smalltalk
 rawReportDescriptor := #[16r05 16r01 16r09 16r04 16rA1 16r01 16rA1 16r02 16r85
@@ -13,6 +14,8 @@ rawReportDescriptor := #[16r05 16r01 16r09 16r04 16rA1 16r01 16rA1 16r02 16r85
 16r08 16r95 16r30 16r09 16r01 16rB1 16r02 16rC0 16rA1 16r02 16r85 16rEF 16r75
 16r08 16r95 16r30 16r09 16r01 16rB1 16r02 16rC0 16rC0]
 ]]]
+
+TODO
 
 [[[
 reportDescriptor := HIDReportDescriptor fromByteArray: rawReportDescriptor
