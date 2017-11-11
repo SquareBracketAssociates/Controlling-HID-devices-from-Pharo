@@ -5,39 +5,43 @@ This chapter presents how to set up a Linux operating system in order to be
 able to follow this tutorial. Additionally, an explanation on how to get info
 about USB devices on Linux is provided.
 
-${inputFile:Chapters/Chapter1/chapter1.pillar}$
+${inputFile:Chapters/Linux/chapter.pillar}$
 
 !!Mac OSX
 This chapter presents how to set up a Mac OSX operating system in order to be
 able to follow this tutorial. Additionally, an explanation on how to get info
 about USB devices on Mac OSX is provided.
 
-${inputFile:Chapters/Chapter2/chapter2.pillar}$
+${inputFile:Chapters/MacOSX/chapter.pillar}$
 
 !!Windows
 
-${inputFile:Chapters/Chapter3/chapter3.pillar}$
-
-!Human Interface Device
-
-!! A quick presentation of the HID protocol
-
-${inputFile:Chapters/Chapter4/chapter4.pillar}$
-
-!! The libusb binding
-
-${inputFile:Chapters/Chapter5/chapter5.pillar}$
-
-!! HumanInterfaceDevice package
-
-${inputFile:Chapters/Chapter6/chapter6.pillar}$
+${inputFile:Chapters/Windows/chapter.pillar}$
 
 ! Playing with HID devices
 
 !! Simplest example: a mouse device
 
-${inputFile:Chapters/Chapter7/chapter7.pillar}$
+${inputFile:Chapters/Mouse/chapter.pillar}$
 
 !! The PS3 controller
 
-${inputFile:Chapters/Chapter8/chapter8.pillar}$
+${inputFile:Chapters/PS3Controller/chapter.pillar}$
+
+!! Communication with Arduino device
+
+${inputFile:Chapters/Arduino/chapter.pillar}$
+
+!Human Interface Device
+
+!! A quick presentation of the HID protocol
+
+${inputFile:Chapters/HIDProtocol/chapter.pillar}$
+
+!! The libusb binding
+
+${inputFile:Chapters/LibusbBinding/chapter.pillar}$
+
+!! HumanInterfaceDevice package
+
+${inputFile:Chapters/HumanInterfaceDevice/chapter.pillar}$
