@@ -1,4 +1,12 @@
+!!! A quick presentation of the HID protocol
+
 TODO
+
+!!! The simplest example: a mouse
+
+TODO
+
+!!! The PS3 controller
 
 [[[label=PS3 controller's HID report|language=Smalltalk
 rawReportDescriptor := #[16r05 16r01 16r09 16r04 16rA1 16r01 16rA1 16r02 16r85
@@ -20,3 +28,7 @@ TODO
 [[[
 reportDescriptor := HIDReportDescriptor fromByteArray: rawReportDescriptor
 ]]]
+
+!!! Communication with an Arduino device
+
+TODO

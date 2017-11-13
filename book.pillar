@@ -1,42 +1,10 @@
-!Set up
+!! Set up
 
-!!Linux
-This chapter presents how to set up a Linux operating system in order to be
-able to follow this tutorial. Additionally, an explanation on how to get info
-about USB devices on Linux is provided.
+${inputFile:Chapters/SetUp/chapter.pillar}$
 
-${inputFile:Chapters/Linux/chapter.pillar}$
+!! Playing with HID devices
 
-!!Mac OSX
-This chapter presents how to set up a Mac OSX operating system in order to be
-able to follow this tutorial. Additionally, an explanation on how to get info
-about USB devices on Mac OSX is provided.
-
-${inputFile:Chapters/MacOSX/chapter.pillar}$
-
-!!Windows
-
-${inputFile:Chapters/Windows/chapter.pillar}$
-
-! Playing with HID devices
-
-!! Simplest example: a mouse device
-
-${inputFile:Chapters/Mouse/chapter.pillar}$
-
-!! The PS3 controller
-
-${inputFile:Chapters/PS3Controller/chapter.pillar}$
-
-!! Communication with Arduino device
-
-${inputFile:Chapters/Arduino/chapter.pillar}$
-
-!Human Interface Device
-
-!! A quick presentation of the HID protocol
-
-${inputFile:Chapters/HIDProtocol/chapter.pillar}$
+${inputFile:Chapters/PlayingWithHID/chapter.pillar}$
 
 !! The libusb binding
 
