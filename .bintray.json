@@ -1,0 +1,27 @@
+{
+    "package": {
+        "name": "booklet-HID",
+        "repo": "wip",
+        "subject": "squarebracketassociates",
+        "desc": "A tutorial to control HDI devices",
+        "licenses": ["MIT"],
+        "website_url": "https://github.com/SquareBracketAssociates/Controlling-HID-devices-from-Pharo",
+        "issue_tracker_url": "https://github.com/SquareBracketAssociates/Controlling-HID-devices-from-Pharo/issues",
+        "vcs_url": "https://github.com/SquareBracketAssociates/Controlling-HID-devices-from-Pharo.git",
+        "labels": ["work-in-progress"]
+    },
+
+    "version": {
+        "name": "latest",
+        "desc": "Latest successful build"
+    },
+
+    "files": [
+        {
+            "includePattern": "build/book.spiral.pdf",
+            "uploadPattern": "HDI-wip.pdf",
+            "matrixParams": { "override": 1 }
+        }
+    ],
+    "publish": true
+}
