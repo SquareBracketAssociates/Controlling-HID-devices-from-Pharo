@@ -39,8 +39,8 @@ $ sudo chmod 777 /dev/bus/usb/002/002
 
 The two last path fragments are the bus number and the device number which you
 can find in the output of lsusb in the previous section. One may want to
-configure the rights correctly using "udev" rules but it is out of scope of
-tutorial. Nevertheless, this simple solution should let you run the code
+configure the rights correctly using "udev" rules but this is out of scope of
+this tutorial. Nevertheless, this simple solution should let you run the code
 presented in this book.
 
 @@note The bus number and the device number may change each time you unplug, re-plug the device. The vid/pid always stay the same.
